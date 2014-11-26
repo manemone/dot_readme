@@ -31,6 +31,10 @@ gem 'bootstrap-sass', '~> 3.3.1'
 
 gem 'autoprefixer-rails'
 
+# using Haml as heml template engine
+gem 'haml-rails'
+gem 'erb2haml'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

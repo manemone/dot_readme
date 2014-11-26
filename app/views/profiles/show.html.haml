@@ -1,0 +1,8 @@
+#profile
+  .row
+    .col-md-6.col-lg-6
+      - @skills.each do |skill|
+        = render partial: "skill", locals: {skill: skill}
+
+    .col-md-6.col-lg-6
+      .skill-chart
